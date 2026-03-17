@@ -1,0 +1,47 @@
+# Content Factory — Git Ignore
+
+# ===========================================
+# ЗОЛОТОЕ ПРАВИЛО:
+# projects/_template/ — СИСТЕМНЫЙ (обновляется)
+# projects/{любой-другой}/ — ПОЛЬЗОВАТЕЛЬСКИЙ (защищён)
+# ===========================================
+
+# Защита пользовательских проектов
+claudecode/projects/*
+!claudecode/projects/_template/
+!claudecode/projects/example-psychologist/
+
+# Пользовательские данные OpenClaw
+openclaw/brand/
+openclaw/learning/
+openclaw/memory/
+
+# Личные файлы
+max-tracker.md
+web-focus.md
+max-focus-archive/
+session-archive/
+agents/personal/
+
+# Архив
+archive/
+
+# Системные файлы
+.DS_Store
+*.swp
+*.swo
+*~
+*.sync-conflict*
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+
+# Личные данные агентов
+agents/personal/
